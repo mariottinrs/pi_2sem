@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
 @font-face {
     font-family: BalooThambi;
     src: url(fonts/BalooThambi-Regular.ttf) format('truetype');
@@ -93,7 +96,7 @@ body {
     -webkit-user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    font-family: BalooThambi;
+    font-family: 'Chakra Petch';
 }
    
 #botao-assine-aqui:after {
@@ -313,4 +316,18 @@ body {
 
 .card-body {
     width: 80%;
+}
+
+.card-title {
+    align-items: center;
+    color: #EA8356;
+    font-family: BalooThambi;
+    font-size: 32px;
+    padding: 3%;
+}
+.card-text {
+    color: #000;
+    font-family: BalooThambi;
+    font-size: 18px;
+    padding: 3%;
 }

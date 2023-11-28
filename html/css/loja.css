@@ -196,7 +196,7 @@ div.rodape-col{
 }
 .nome-produto-text {
     align-items: center;
-    color: #EA8356;
+    color: #3A90C3;
     font-family: BalooThambi;
     font-size: 28px;
     padding: 5%;
@@ -211,9 +211,10 @@ div.rodape-col{
     text-align: center;
     color: #EA8356;
     font-family: BalooThambi;
-    font-size: 40px;
-    padding: 2%;
+    font-size: 36px;
+    padding: 1%;
     margin-left: 2%;
+    margin-top: 3%;
 }
 .texto-informativo-loja{
     text-align: center;
