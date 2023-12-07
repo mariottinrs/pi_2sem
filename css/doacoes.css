@@ -7,6 +7,7 @@
 *{
     margin:0;
     padding:0;
+
 }
 
 body {
@@ -40,10 +41,6 @@ ul.navbar-nav {
 }
 
 a.nav-link {
-    background-color: #69A625;
-}
-
-a.navbar-brand {
     background-color: #69A625;
 }
 
@@ -181,92 +178,33 @@ div.rodape-col{
     }
 }
 
-.baixa-assinado-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.doacoes-container {
     text-align: center;
-    padding: 1%;
-    height: 45vh; /* Define a altura do contêiner para a altura total da janela de visualização */
-    margin-top: 5%;
-    margin-bottom: 2%;
+    max-width: 800px; /* Defina a largura máxima desejada para o container */
+    margin: 0 auto; /* Centraliza o container na tela */
+    padding: 20px; /* Adicione algum espaço interno para melhor aparência */
 }
-  
-.baixa-assinado-title {
+
+
+
+.doacoes-title {
+    align-items: center;
     color: #EA8356;
     font-family: BalooThambi;
-    font-size: 40px;
-    padding: 1%;
+    font-size: 36px;
+    padding: 5%;
 }
-.baixa-assinado-text{
+
+.doacoes-text{
     color: #000;
     font-family: BalooThambi;
     font-size: 18px;
-    padding: 1%;
+    padding: 3%;
 }
 
-#botao-assine-aqui {
-    appearance: button;
-    background-color: #69A625;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: .8px;
-    line-height: 20px;
-    margin: 0;
-    outline: none;
-    overflow: visible;
-    padding: 13px 19px;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transform: translateZ(0);
-    transition: filter .2s;
-    user-select: none;
-    -webkit-user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
-    font-family: 'Chakra Petch';
-}
-   
-#botao-assine-aqui:after {
-    background-clip: padding-box;
-    background-color: #69A625;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    bottom: -4px;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-}
-   
-#botao-assine-aqui:main, botao-assine-aqui:focus {
-    user-select: auto;
-}
-   
-#botao-assine-aqui:hover:not(:disabled) {
-    filter: brightness(1.1);
-}
-   
-#botao-assine-aqui:disabled {
-    cursor: auto;
-}
-   
-#botao-assine-aqui:active:after {
-    border-width: 0 0 0px;
-}
-   
-#botao-assine-aqui:active {
-    padding-bottom: 10px;
+.doacoes-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
 }

@@ -22,7 +22,7 @@ span.navbar-toggler-icon{
 }
 .navbar-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 24px;
     width: 100%;
